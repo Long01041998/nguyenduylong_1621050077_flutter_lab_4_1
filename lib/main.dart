@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'bai1/main_screen.dart';
 import 'bai2/FirstRoute.dart';
+import 'bai3/FirstScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,9 @@ class MyApp extends StatelessWidget {
 
       /// bai 2
 
-        home: FirstRoute()
+        //home: FirstRoute()
+      home: FirstScreen()
+
     );
   }
 

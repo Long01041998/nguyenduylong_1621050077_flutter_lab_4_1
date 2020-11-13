@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
+import 'bai1/detail_screen.dart';
 import 'bai1/main_screen.dart';
 import 'bai2/FirstRoute.dart';
 import 'bai3/FirstScreen.dart';
 import 'bai4/HomeScreen.dart';
 import 'bai5/SelectionButton.dart';
+import 'bai6/Todo.dart';
+import 'bai6/TodosScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +30,9 @@ class MyApp extends StatelessWidget {
       //bai4
       //home: HomeScreen()
       //bai5
-      home: SelectionButton()
+      //home: SelectionButton()
+      //bai6
+      home: TodosScreen()
 
 
     );

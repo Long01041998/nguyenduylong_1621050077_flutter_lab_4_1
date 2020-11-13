@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'bai1/main_screen.dart';
+import 'bai2/FirstRoute.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Navigator',
-      home: MainScreen(),
+      /// bai 1
+      ///home: MainScreen()
+
+
+      /// bai 2
+
+        home: FirstRoute()
     );
   }
+
 }

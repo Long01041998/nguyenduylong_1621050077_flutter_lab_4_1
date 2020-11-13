@@ -4,6 +4,7 @@ import 'bai1/main_screen.dart';
 import 'bai2/FirstRoute.dart';
 import 'bai3/FirstScreen.dart';
 import 'bai4/HomeScreen.dart';
+import 'bai5/SelectionButton.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,9 @@ class MyApp extends StatelessWidget {
       //bai3
       //home: FirstScreen()
       //bai4
-      home: HomeScreen()
+      //home: HomeScreen()
+      //bai5
+      home: SelectionButton()
 
 
     );
